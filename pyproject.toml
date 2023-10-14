@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "visa-checker"
+version = "0.0.1"
+description = "Simple Italy visa checker"
+authors = ["Ivan <95343915+Ninefiveblade@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+telebot = "0.0.5"
+bs4 = "0.0.1"
+pydantic-settings = "2.0.3"
+colorlog = "6.7.0"
+lxml = "4.9.3"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+black = "^23.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
